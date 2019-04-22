@@ -1,0 +1,10 @@
+﻿{
+  "modules": [
+    {
+      "type": "AspNetCore.MiniProfiler.Demo.Web.WebModule, AspNetCore.MiniProfiler.Demo.Web",
+      "properties": {
+        "SettingHelper": "Power.Mvc.Helper.SettingHelper, Power.Mvc.Helper"
+      }
+    }
+  ]
+}
