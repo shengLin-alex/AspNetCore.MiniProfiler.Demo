@@ -29,6 +29,6 @@ namespace AspNetCore.MiniProfiler.Demo.Web
         /// </summary>
         /// <param name="args">program arguments</param>
         /// <returns><see cref="IWebHostBuilder"/></returns>
-        public static IWebHostBuilder CreateWebHostBuilder(string[] args) => WebHost.CreateDefaultBuilder(args).UseStartup<Startup>();
+        private static IWebHostBuilder CreateWebHostBuilder(string[] args) => WebHost.CreateDefaultBuilder(args).UseStartup<Startup>();
     }
 }

@@ -27,9 +27,9 @@ namespace AspNetCore.MiniProfiler.Demo.Web
         /// <summary>
         /// Autofac DI 容器
         /// </summary>
-        public IContainer ApplicationContainer { get; private set; }
+        private IContainer ApplicationContainer { get; set; }
 
-        public IConfiguration Configuration { get; }
+        private IConfiguration Configuration { get; }
 
         /// <summary>
         /// This method gets called by the runtime. Use this method to add services to the container.
